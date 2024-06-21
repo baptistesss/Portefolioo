@@ -1,0 +1,48 @@
+.slider-container {
+  padding: 2rem;
+  margin-top: 4rem;
+}
+.title-caro {
+  margin-top: 4rem;
+}
+.slider {
+  width: 50%;
+  margin: 3rem;
+}
+
+.slick-slide {
+  margin: 0px 8px;
+}
+
+.slick-slide img {
+  width: 100%;
+  margin-left: 6rem;
+}
+.slick-prev {
+  height: 100vh;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(158, 158, 92);
+}
+
+.slick-slide {
+  transition: all ease-in-out 0.3s;
+}
+.slick-track {
+  width: 1vw;
+}
+
+h2 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+
+.car1 {
+  margin-bottom: 10rem;
+}
+.caro2 {
+  margin-bottom: 2rem;
+}

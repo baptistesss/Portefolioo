@@ -1,0 +1,28 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 2px 8px rgb(158, 158, 92);
+  margin: 16px;
+  background-color: #fff;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 1.5em;
+  margin: 0 0 8px;
+}
+
+.card-description {
+  font-size: 1em;
+  color: #555;
+}

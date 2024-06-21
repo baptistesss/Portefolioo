@@ -1,0 +1,63 @@
+nav {
+  background-color: #333;
+  padding: 1em;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+/* App.css */
+nav.desktop-menu {
+  padding: 1em;
+  display: none; /* Masquer le menu de bureau par défaut */
+}
+
+nav.desktop-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav.desktop-menu ul li {
+  display: inline;
+}
+
+nav.desktop-menu ul li a {
+  color: rgb(158, 158, 92);
+  text-decoration: none;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+
+/* Afficher le menu de bureau sur les grands écrans */
+@media (min-width: 700px) {
+  nav.desktop-menu {
+    display: block;
+    padding-left: 40px;
+  }
+
+  .bm-burger-button {
+    display: none; /* Masquer le bouton burger sur les grands écrans */
+  }
+}

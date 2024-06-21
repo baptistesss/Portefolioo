@@ -1,0 +1,154 @@
+.name {
+  text-align: center;
+  color: rgb(158, 158, 92);
+  font-family: Arial, sans-serif;
+}
+.part2 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+.part1 {
+  text-align: center;
+  margin: 2rem 2rem;
+  font-family: Arial, sans-serif;
+}
+.profil {
+  width: 80vw;
+  height: 100%;
+  margin-top: 1.2rem;
+}
+.Exp2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+
+  gap: 20px;
+  padding: 20px;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.card-container {
+  display: flex;
+  gap: 16px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(158, 158, 92);
+  font-family: Arial, sans-serif;
+}
+.desc {
+  box-shadow: 0 2px 8px rgb(158, 158, 92);
+  margin: 5rem;
+  width: 70%;
+  height: 20vw;
+  font-family: Arial, sans-serif;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+
+  padding: 3rem;
+}
+.project {
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+button {
+  background-color: rgb(158, 158, 92);
+  border: rgb(158, 158, 92);
+  width: 100%;
+  height: 2rem;
+  color: white;
+  cursor: pointer;
+}
+.buttons {
+  width: 80px;
+}
+#message {
+  margin-top: 2rem;
+  width: 60vw;
+  height: 20vh;
+}
+
+button:hover {
+  background-color: black;
+}
+
+#name {
+  display: flex;
+  gap: 2rem;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  color: rgb(158, 158, 92);
+  text-decoration: underline;
+  font-family: Arial, sans-serif;
+}
+h3 {
+  color: rgb(158, 158, 92);
+  text-decoration: underline;
+  font-family: Arial, sans-serif;
+}
+
+.contact-desc {
+  display: flex;
+  justify-content: space-around;
+}
+
+.part-3 {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  width: 60vw;
+
+  box-shadow: 0 2px 8px rgb(158, 158, 92);
+  align-items: center;
+
+  margin-left: 10rem;
+  margin-bottom: 3rem;
+  margin-top: 5rem;
+}
+
+.desc-hobbies {
+  text-align: center;
+  margin: 2rem;
+  font-family: Arial, sans-serif;
+}

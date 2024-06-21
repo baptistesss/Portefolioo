@@ -1,0 +1,20 @@
+/* DateTimeDisplay.css */
+.date-time-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: rgb(158, 158, 92);
+  font-size: 1.4rem;
+  margin-right: 5rem;
+  margin-top: 3rem;
+  background-color: #333;
+  border: 3px solid rgb(158, 158, 92);
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgb(158, 158, 92);
+  max-width: 300px;
+  margin: auto;
+  padding: 1.5rem;
+}

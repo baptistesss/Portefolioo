@@ -1,0 +1,127 @@
+.text-row {
+  display: flex;
+  justify-content: space-between; /* Ou utilisez space-around ou space-evenly selon vos besoins */
+  padding: 10px;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+.part3 {
+  padding: 50px;
+  margin: 1rem;
+}
+h1 {
+  text-decoration: underline;
+  margin: 2rem 2rem;
+  color: rgb(158, 158, 92);
+}
+.text-item {
+  flex: 1; /* Chaque élément prend une part égale de l'espace disponible */
+  margin: 0 10px; /* Espacement entre les éléments */
+  padding: 10px;
+  text-align: center; /* Centrer le texte dans chaque élément */
+  border-radius: 5px; /* Optionnel : coins arrondis */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.image-container img {
+  max-width: 150px;
+  height: auto;
+}
+
+.part4 {
+  box-shadow: 0 2px 8px rgb(158, 158, 92);
+  max-width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.part5 {
+  box-shadow: 0 2px 8px rgb(158, 158, 92);
+  max-width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.part6 {
+  box-shadow: 0 2px 8px rgb(158, 158, 92);
+  max-width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.part7 {
+  box-shadow: 0 2px 8px rgb(158, 158, 92);
+  max-width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.title-skill {
+  text-align: center;
+  margin: 1rem;
+}
+
+img {
+  width: 20%;
+}
+
+hr {
+  border: none;
+  border-top: 3px double rgb(158, 158, 92);
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}
+
+hr::after {
+  background: #fff;
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.svg {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.title-part2 {
+  margin-bottom: 4rem;
+  font-family: Arial, sans-serif;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 0;
+  margin: 2rem;
+  align-items: center;
+}
+
+.skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill_desc {
+  font-family: Arial, sans-serif;
+}
